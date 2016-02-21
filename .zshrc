@@ -1,7 +1,3 @@
-#@IgnoreInspection BashAddShebang
-# So PhpStorm won't squawk.
-#################################
-
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
