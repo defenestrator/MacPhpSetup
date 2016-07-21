@@ -60,7 +60,6 @@ php -r "if (hash('SHA384', file_get_contents('composer-setup.php')) === 'fd26ce6
 php composer-setup.php --install-dir=/usr/local/bin --filename=composer || echo Failed to install Composer. >> ${LOG};
 php -r "unlink('composer-setup.php');" || echo Failed to unlink Composer. >> ${LOG};
 brew install node || echo "Node JS failed to install, try it manually: https://nodejs.org/en/#download" >> ${LOG};
-npm install -g bower || echo "Bower install failed" >> ${LOG};
 
 # Configure $PATH variable
 ###############################################################################
